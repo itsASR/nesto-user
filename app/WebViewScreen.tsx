@@ -6,6 +6,9 @@ const WebViewScreen = () => {
   const [loading, setLoading] = useState(true);
   const webViewRef = useRef(null);
 
+  console.log("Rendering WebViewScreen");
+
+
   return (
     <View style={styles.container}>
       {loading && (
